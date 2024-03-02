@@ -4,7 +4,7 @@ export const ListItem = ({ name, number, id, onDelete }) => {
     <Item key={id}>
       {name}: {number}
       <DeleteButton type="button" onClick={onDelete}>
-        Delete
+        delete
       </DeleteButton>
     </Item>
   );
